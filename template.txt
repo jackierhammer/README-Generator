@@ -1,0 +1,23 @@
+`# ${data.project-title}
+
+## Description
+
+${data.description}
+
+## Table of Contents (Optional)
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## License
+
+insert license here`
