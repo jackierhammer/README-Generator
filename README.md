@@ -24,6 +24,8 @@ After cloning the respository, run npm i in the terminal to install inquirer.
     
 After installing the necessary tools, run node index.js in the terminal from the project directory. Follow the prompts that appear in the terminal.
 
+https://github.com/jackierhammer/README-Generator/blob/main/Assets/TutorialVideo.mp4
+
 ## Contributing
 
 This project is not accepting contributions at this time.
