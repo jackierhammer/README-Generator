@@ -28,11 +28,11 @@ inquirer
       type: 'list',
       message: 'Please select a license for you project.',
       name: 'license',
-      choices: ['GNU General Public License', 'MIT'],
+      choices: ['GPLv3', 'MIT', 'Apache'],
     },
   ])
   .then((data) => {
-    fs.writeFile('README.md', template(data), (err) =>
+    fs.writeFile('README.MD', template(data), (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });

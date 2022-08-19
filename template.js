@@ -1,29 +1,30 @@
 function template(data) {
-    return `# ${data.project_title}
+    return `
+# ${data.project_title}
 
-    ## Description
+## Description
     
-    ${data.description}
+${data.description}
     
-    ## Table of Contents (Optional)
+## Table of Contents (Optional)
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
     
-    ## Installation
+## Installation
     
-    ${data.installation}
+${data.installation}
     
-    ## Usage
+## Usage
     
-    ${data.usage}
+${data.usage}
     
-    ## License
+## License
     
-    ![image](https://img.shields.io/badge/license-${data.license}-green)
+![badge](https://img.shields.io/badge/license-${data.license}-green)
 
-    `
+    `;
 };
 
 
